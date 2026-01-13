@@ -1,0 +1,25 @@
+{
+  "simulator": {
+    "device_type": "Apple Watch",
+    "preferred_models": [
+      "Apple Watch Series 9 (45mm)",
+      "Apple Watch Series 9 (41mm)",
+      "Apple Watch Ultra 2 (49mm)"
+    ],
+    "watchos_version": "latest",
+    "auto_boot": true,
+    "auto_open_simulator": true
+  },
+  "deployment": {
+    "build_configuration": "Debug",
+    "sdk": "watchsimulator",
+    "architectures": ["arm64", "x86_64"],
+    "code_sign_identity": "Apple Development",
+    "provisioning_profile": ""
+  },
+  "xcode": {
+    "workspace_path": "",
+    "scheme": "WatchApp",
+    "target": "WatchApp Watch App"
+  }
+}
